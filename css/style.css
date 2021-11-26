@@ -1,0 +1,105 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.navbar-brand{
+    font-size: 23px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    color: white;
+}
+.navbar-brand:hover{
+    color:white;
+}
+.nav-link{
+    color: white;
+    font-size: 20px;
+}
+.nav-link:hover{
+    color: deepskyblue;
+}
+ .active{
+    color: deepskyblue;
+    font-weight: 700;
+    letter-spacing: 1px;
+    border-bottom: 2px solid deepskyblue;
+}
+.bg-black{
+    background-color: rgb(12, 11, 11);
+}
+.a{
+    color: whitesmoke;
+    font-size: 20px;
+}
+.b{
+    color: deepskyblue;
+    font-size: 2.5rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+.c{
+    color: whitesmoke;
+}
+.btn-hire{
+    background: deepskyblue;
+    color: whitesmoke;
+    border-radius: 10px;
+    padding: 5px 25px;
+    font-weight: 700;
+    transition: all 0.1s ease-in;
+    margin-right: 10px;
+}
+.btn-hire:hover{
+    background: transparent;
+    border: 2px dashed deepskyblue;
+    color: deepskyblue;
+}
+.btn-contact{
+     background: deepskyblue;
+    color: whitesmoke;
+    border-radius: 10px;
+    padding: 5px 25px;
+    font-weight: 700;
+    transition: all 0.1s ease-in;
+    margin-left: 10px;
+    border-style: dashed;
+}
+.btn-contact:hover{
+    background: black;
+    color: deepskyblue;
+   border:2px dashed;
+}
+.p{
+    width: 250px;
+    height: 250px;
+    margin:0 auto;
+    border-radius: 80px;
+    overflow: hidden;
+}
+.p img{
+    width: 100%;
+    height: auto;
+}
+.title{
+    color: deepskyblue;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+.pic{
+    border: 7px solid deepskyblue;
+}
+.bg-blue{
+    background: deepskyblue;
+}
+.f{
+    background: gainsboro;
+}
+
+/* mobile styling */
+@media(max-width:576px){
+    .a{
+        font-size: 2rem;
+    }
+}
